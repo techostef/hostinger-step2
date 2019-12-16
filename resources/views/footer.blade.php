@@ -1,8 +1,8 @@
 <div class="w-full" style="background: #333333">
     <div class="container m-auto py-3" style="padding-top: 80px">
 
-        <div class="w-full flex flex-wrap">
-            <div class="w-1/4">
+        <div class="w-full flex flex-wrap xm:m-4">
+            <div class="xm:w-full w-1/4">
                 <div class="w-full py-1 font-bold mb-4" style="font-size:16px; color:#888888">
                     HUBUNGI KAMI
                 </div>
@@ -30,7 +30,7 @@
                 </div>
             </div>
 
-            <div class="w-1/4">
+            <div class="xm:w-full w-1/4">
                 <div class="w-full py-1 font-bold mb-4" style="font-size:16px; color:#888888">
                     LAYANAN
                 </div>
@@ -61,7 +61,7 @@
                 </div>
             </div>
 
-            <div class="w-1/4">
+            <div class="xm:w-full w-1/4">
                 <div class="w-full py-1 font-bold mb-4" style="font-size:16px; color:#888888">
                     SERVICE HOSTING
                 </div>
@@ -85,7 +85,7 @@
                 </div>
             </div>
 
-            <div class="w-1/4">
+            <div class="xm:w-full w-1/4">
                 <div class="w-full py-1 font-bold mb-4" style="font-size:16px; color:#888888">
                     TUTORIAL
                 </div>
@@ -103,7 +103,7 @@
                 </div>
             </div>
 
-            <div class="w-1/4 mt-10">
+            <div class="xm:w-full w-1/4 mt-10">
                 <div class="w-full py-1 font-bold mb-4" style="font-size:16px; color:#888888">
                     Tentang KAMI
                 </div>
@@ -124,7 +124,7 @@
                 </div>
             </div>
 
-            <div class="w-1/4 mt-10">
+            <div class="xm:w-full w-1/4 mt-10">
                 <div class="w-full py-1 font-bold mb-4" style="font-size:16px; color:#888888">
                     KENAPA PILIH NIAGAHOSTER
                 </div>
@@ -145,7 +145,7 @@
                 </div>
             </div>
 
-            <div class="w-1/4 mt-10">
+            <div class="w-fullCustom w-1/4 mt-10">
                 <div class="w-full py-1 font-bold mb-4" style="font-size:16px; color:#888888">
                     NEWSLETTER
                 </div>
@@ -162,7 +162,7 @@
                 </div>
             </div>
 
-            <div class="w-1/4 mt-10 flex pt-12 pl-5">
+            <div class="xm:w-full w-1/4 mt-10 flex pt-12 pl-5">
                 <div class="mr-5">
                     <div style="width: 60px;height: 60px">
                         <div class="logofacebookfooter"></div>
@@ -184,6 +184,11 @@
 </div>
 
 <style>
+    @media (max-width: 639px) {
+        .w-fullCustom {
+            width: calc(100% - 2.5rem);
+        }
+    }
     .logotwitterfooter {
         background: url("assets/images/twitter-footer.png");
         background-position: 0 0;

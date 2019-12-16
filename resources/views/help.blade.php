@@ -1,11 +1,11 @@
 <div class="w-full" style="background: #439fff">
     <div class="container m-auto py-3">
 
-        <div class="w-full flex" style="padding-top: 40px;padding-bottom: 40px; font-size: 30px;">
-            <div class="text-white px-10 py-5" style="border-right: 1px solid #66aef9">
+        <div class="w-full flex xm:flex-wrap" style="padding-top: 40px;padding-bottom: 40px; font-size: 30px;">
+            <div class="text-white px-10 py-5 xm:w-full" style="border-right: 1px solid #66aef9">
                 Perlu <span class="font-bold">BANTUAN</span> ? Hubungi Kami : <span class="font-bold">0274-5305505</span>
             </div>
-            <div class="text-white px-8 py-2 flex ml-auto my-auto" style="border: 2px solid white; border-radius: 40px; height: 60px; line-height: 44px">
+            <div class="text-white px-8 py-2 flex ml-auto my-auto xm:w-full xm:m-4" style="border: 2px solid white; border-radius: 40px; height: 60px; line-height: 44px">
                 <i class="fa fa-comments text-white mt-1" style="font-size: 38px;" aria-hidden="true"></i>
                 <div class="font-semibold ml-5" style="font-size: 22px">Live Chat</div>
             </div>

@@ -1,11 +1,11 @@
 <div class="w-full">
     <div class="container m-auto flex">
         <div class="flex w-1/2">
-            <div class="flag" style="width: 30px; height: 30px"></div>
+            <div class="flag" style="width: 30px; height: 30px;margin-top: -1px;"></div>
             <div class="w-fit-content ml-4 p-1 text-dark" style="font-size: 12px;">Gratis Ebook 9 Cara Cerdas Menggunakan Domain[ x ]</div>
         </div>
         <div class="flex w-1/2">
-            <div class="flex ml-auto">
+            <div class="flex ml-auto sm:flex-wrap flex-wrap md:flex-no-wrap lg:flex-no-wrap">
                 <div class="flex p-2">
                     <i class="fa fa-phone text-dark mt-1" style="font-size: 14px;" aria-hidden="true"></i>
                     <div class="pl-2" style="font-size: 14px;">

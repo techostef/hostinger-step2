@@ -1,7 +1,7 @@
 <div class="w-full my-10">
     <div class="container m-auto flex py-3">
-        <div class="w-full flex">
-            <div class="w-1/4">
+        <div class="w-full flex flex-wrap">
+            <div class="xm:w-full xm:m-5 w-1/4">
                 <div class="border-dark font-bold text-dark text-center py-3" style="font-size: 25px">
                     Bayi
                 </div>
@@ -31,7 +31,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-1/4">
+            <div class="xm:w-full xm:m-5 w-1/4">
                 <div class="border-dark font-bold text-dark text-center py-3" style="font-size: 25px">
                     Pelajar
                 </div>
@@ -63,7 +63,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-1/4">
+            <div class="xm:w-full xm:m-5 w-1/4">
                 <div class="relative w-full">
                     <div class="absolute w-full" style="top: -10px;left: -10px;" >
                         <div style="width: 100px; height: 100px">
@@ -104,7 +104,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-1/4">
+            <div class="xm:w-full xm:m-5 w-1/4">
                 <div class="border-dark font-bold text-dark text-center py-3" style="font-size: 25px">
                     Bisnis
                 </div>

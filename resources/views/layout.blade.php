@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,viewport-fit=cover,user-scalable=no,initial-scale=1.0">
 
     <title>Laravel</title>
 
@@ -10,9 +10,14 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <link href="css/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="css/tailwind.css" rel="stylesheet">
+    <link href="css/tailwind-extends.css" rel="stylesheet">
     <style>
+        body {
+            overflow-x: hidden;
+        }
         .container {
             width: 1000px !important;
+            max-width: 100% !important;
         }
         .w-fit-content {
             width: -moz-fit-content;
@@ -65,9 +70,33 @@
             -webkit-transform: rotate(45deg); /* Safari 3-8 */
             transform: rotate(45deg);
         }
+        .border-shadow {
+            -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+            box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+        }
     </style>
+    <script>
+        function toggleDisplay(elm) {
+            if (elm.style.display === 'block' || elm.style.display === 'flex') {
+                elm.style.display = 'none'
+            } else {
+                elm.style.display = 'block'
+            }
+        }
+        function bodyScroll() {
+            var body = document.getElementsByTagName('body')
+            body = body[0]
+            if (body.style.overflowY === '' || body.style.overflowY === 'auto') {
+                body.style.overflowY = 'hidden'
+            } else {
+                body.style.overflowY = 'auto'
+            }
+        }
+    </script>
 </head>
 <body>
+    @include('menuMobile')
     @include('header')
     @include('menu')
     @include('info')
@@ -79,9 +108,11 @@
     @include('framework')
     @include('module')
     @include('teknologi')
+    @include('share')
     @include('help')
     @include('footer')
     @include('footerpayment')
 {{--    @include('content')--}}
+
 </body>
 </html>

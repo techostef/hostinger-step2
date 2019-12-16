@@ -1,12 +1,12 @@
 <div class="w-full my-5">
     <div class="container m-auto flex flex-wrap py-3">
-        <div class="w-full flex mb-8">
+        <div class="w-full flex mb-8 text-center">
             <div class="w-fit-content m-auto text-dark" style="font-size: 28px">
                 Module Lengkap untuk Menjalankan Aplikasi PHP Anda.
             </div>
         </div>
-        <div class="w-full flex flex-wrap">
-            <div class="w-1/4">
+        <div class="w-full flex flex-wrap xm:p-3">
+            <div class="xm:w-1/2 w-1/4">
                 <div class="w-full p-1 text-dark" style="font-size:18px">
                     IcePHP
                 </div>
@@ -51,7 +51,7 @@
                 </div>
             </div>
 
-            <div class="w-1/4">
+            <div class="xm:w-1/2 w-1/4">
                 <div class="w-full p-1 text-dark" style="font-size:18px">
                     huffman
                 </div>
@@ -95,7 +95,7 @@
                     ldap
                 </div>
             </div>
-            <div class="w-1/4">
+            <div class="xm:w-1/2 w-1/4">
                 <div class="w-full p-1 text-dark" style="font-size:18px">
                     nd_pdo_mysql
                 </div>
@@ -139,7 +139,7 @@
                     phalcon
                 </div>
             </div>
-            <div class="w-1/4">
+            <div class="xm:w-1/2 w-1/4">
                 <div class="w-full p-1 text-dark" style="font-size:18px">
                     stats
                 </div>

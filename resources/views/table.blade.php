@@ -1,11 +1,11 @@
 <div class="w-full my-5">
     <div class="container m-auto flex flex-wrap py-3">
         <div class="w-full flex mb-4">
-            <div class="w-fit-content m-auto font-bold text-dark" style="font-size: 28px">
+            <div class="w-fit-content m-auto text-center font-bold text-dark" style="font-size: 28px">
                 Powerfull dengan Limit PHP yang Lebih Besar
             </div>
         </div>
-        <div class="w-1/2 p-3">
+        <div class="xm:w-full w-1/2 p-3">
             <table class="w-full tableCustom">
                 <tbody>
                     <tr>
@@ -23,7 +23,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="w-1/2 p-3">
+        <div class="xm:w-full w-1/2 p-3">
             <table class="w-full tableCustom">
                 <tbody>
                     <tr>

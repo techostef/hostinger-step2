@@ -1,12 +1,12 @@
 <div class="w-full my-5">
     <div class="container m-auto flex flex-wrap py-3">
         <div class="w-full flex mb-8">
-            <div class="w-fit-content m-auto font-bold text-dark" style="font-size: 28px">
+            <div class="w-fit-content text-center m-auto font-bold text-dark" style="font-size: 28px">
                 Semua Paket Hosting Sudah Termasuk
             </div>
         </div>
         <div class="w-full flex flex-wrap">
-            <div class="w-1/3 my-8">
+            <div class="xm:w-full w-1/3 my-8">
                 <div class="w-full flex text-center mb-4">
                     <div class="m-auto" style="width: 80px; height: 80px;">
                         <div class="logosemuaversi"></div>
@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-            <div class="w-1/3 my-8">
+            <div class="xm:w-full w-1/3 my-8">
                 <div class="w-full flex text-center mb-4">
                     <div class="m-auto" style="width: 80px; height: 80px;">
                         <div class="logomysql"></div>
@@ -48,7 +48,7 @@
 
             </div>
 
-            <div class="w-1/3 my-8">
+            <div class="xm:w-full w-1/3 my-8">
                 <div class="w-full flex text-center mb-4">
                     <div class="m-auto" style="width: 80px; height: 80px;">
                         <div class="logocpanel"></div>
@@ -66,7 +66,7 @@
                 </div>
             </div>
 
-            <div class="w-1/3 my-8">
+            <div class="xm:w-full w-1/3 my-8">
                 <div class="w-full flex text-center mb-4">
                     <div class="m-auto" style="width: 80px; height: 80px;">
                         <div class="logogaransi"></div>
@@ -84,7 +84,7 @@
                 </div>
             </div>
 
-            <div class="w-1/3 my-8">
+            <div class="xm:w-full w-1/3 my-8">
                 <div class="w-full flex text-center mb-4">
                     <div class="m-auto" style="width: 80px; height: 80px;">
                         <div class="logoinnodb"></div>
@@ -102,7 +102,7 @@
                 </div>
             </div>
 
-            <div class="w-1/3 my-8">
+            <div class="xm:w-full w-1/3 my-8">
                 <div class="w-full flex text-center mb-4">
                     <div class="m-auto" style="width: 80px; height: 80px;">
                         <div class="logomysqlremote"></div>

@@ -1,7 +1,7 @@
 <div class="w-full mb-5">
     <div class="container m-auto flex py-3">
-        <div class="w-full flex">
-            <div class="w-1/2">
+        <div class="w-full flex flex-wrap sm:p-4 p-4">
+            <div class="md:w-1/2 lg:w-1/2 sm:w-full w-full">
                 <div class="w-full">
                     <div class="font-bold text-dark" style="font-size: 40px">PHP Hosting</div>
                 </div>
@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-1/2 flex">
+            <div class="md:w-1/2 lg:w-1/2 sm:w-full w-full flex">
                 <div class="ml-auto my-auto" style="width: 420px; height: 250px">
                     <div class="logophp7"></div>
                 </div>

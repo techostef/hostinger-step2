@@ -1,4 +1,4 @@
-<div class="w-full">
+<div class="w-full sm:hidden hidden md:block lg:block">
     <div class="container m-auto flex py-3">
         <div class="w-full flex">
             <div style="height: 50px; width: 200px;">
@@ -37,7 +37,6 @@
     </div>
     <div class="w-full hr mt-2"></div>
 </div>
-
 <style>
     .logo {
         background: url("assets/images/logo.png");

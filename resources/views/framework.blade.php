@@ -3,26 +3,26 @@
         <div class="w-full text-center mb-8">
             <div class=" text-dark" style="font-size: 35px">Mendukung Penuh Framework Laravel</div>
         </div>
-        <div class="w-full flex">
-            <div class="w-1/2">
-                <div class="w-full mb-4">
+        <div class="w-full flex flex-wrap xm:p-3">
+            <div class="xm:w-full w-1/2">
+                <div class="w-full mb-4 text-center">
                     <div class="text-dark" style="font-size: 20px">Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda</div>
                 </div>
-                <div class="w-full flex py-1">
-                    <i class="fa fa-check-circle text-dark mt-1 text-success" style="font-size: 18px;" aria-hidden="true"></i>
-                    <div class="text-dark pl-2 pt-1">
+                <div class="w-full flex py-1 m-2">
+                    <div class="text-dark">
+                        <i class="fa fa-check-circle text-dark mt-1 text-success" style="font-size: 18px;" aria-hidden="true"></i>
                         Install laravel <span class="font-bold">1 klik</span> dengan Softaculous Installer.
                     </div>
                 </div>
                 <div class="w-full flex py-1">
-                    <i class="fa fa-check-circle text-dark mt-1 text-success" style="font-size: 18px;" aria-hidden="true"></i>
                     <div class="text-dark pl-2 pt-1">
+                        <i class="fa fa-check-circle text-dark mt-1 text-success" style="font-size: 18px;" aria-hidden="true"></i>
                         Mendukung ekstensi <span class="font-bold">PHP MCrypt, phar, mbstring, json,</span> dan <span class="font-bold">fileinfo.</span>
                     </div>
                 </div>
-                <div class="w-full flex py-1">
-                    <i class="fa fa-check-circle text-dark mt-1 text-success" style="font-size: 18px;" aria-hidden="true"></i>
-                    <div class="text-dark pl-2 pt-1">
+                <div class="w-full flex flex-wrap py-1 ">
+                    <div class="text-dark pl-2 pt-1 xm:w-full">
+                        <i class="fa fa-check-circle text-dark mt-1 text-success" style="font-size: 18px;" aria-hidden="true"></i>
                         Tersedia <span class="font-bold">Composer</span> dan <span class="font-bold">SSH</span> untuk menginstall packages pilihan Anda.
                     </div>
                 </div>
@@ -31,13 +31,13 @@
                         Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis
                     </div>
                 </div>
-                <div class="w-full flex py-1">
-                    <div class="text-white border-primary bg-primary py-2 px-5 font-bold" style="border-radius: 30px; font-size: 20px;">
+                <div class="w-full flex py-1 xm:mb-4">
+                    <div class="text-white border-primary xm:m-auto bg-primary py-2 px-5 font-bold" style="border-radius: 30px; font-size: 20px;">
                         Pilih Hosting Anda
                     </div>
                 </div>
             </div>
-            <div class="w-1/2 flex">
+            <div class="xm:w-full w-1/2 flex">
                 <div class="ml-auto my-auto" style="width: 420px; height: 300px">
                     <div class="logophplaravel"></div>
                 </div>
